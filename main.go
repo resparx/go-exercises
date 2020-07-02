@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"learnpackage/add"
 )
 
 func main() {
@@ -9,4 +10,7 @@ func main() {
 	var b = 2
 	c := "detox"
 	fmt.Println("variables are", a, b, c)
+	addd := add.Add(2, 3)
+
+	fmt.Println("add func", addd)
 }
